@@ -21,5 +21,10 @@ Luego en una carpeta modules creamoslo que esta ahi
 Luego agregar en app.js
 
 ```js
+import { Provider } from "react-redux";
+import { store } from "./modules/store/store";
+
+<Provider store={store} >
+</Provider >
 
 ```
